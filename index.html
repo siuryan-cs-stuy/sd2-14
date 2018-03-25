@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+  <style>
+    .chart .data {
+      display: inline-block;
+      font: 12px sans-serif;
+      background-color: steelblue;
+      text-align: right;
+      padding: 3px;
+      margin: 1px;
+      color: steelblue;
+    }
+    .chart .label {
+      display: inline-block;
+      font: 12px sans-serif;
+      background-color: lightsteelblue;
+      text-align: left;
+      padding: 5px;
+      margin: 3px;
+      color: white;
+      width: 300px;
+    }
+    span {
+      font: 16px sans-serif;
+    }
+  </style>
+
+  <body>
+    <h1>U.S. Federal Budget</h1>
+    <h2 id="title"></h2>
+
+    <div class="chart"></div>
+
+    <span id="link"><a href="">Source</a></span>
+    <br>
+    <p>Hover over a bar for more details!</p>
+    <button id="next">Next</button>
+
+    <script src="http://d3js.org/d3.v3.min.js"
+            charset="utf-8"></script>
+    <script src="bar.js"></script>
+
+  </body>
+</html>
